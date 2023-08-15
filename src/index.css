@@ -75,6 +75,7 @@ section > p {
 a {
     color: var(--color-white);
     transition: var(--transition);
+    font-size: 1.1rem;
 }
 
 /* GENERAL HEADING STYLES */
