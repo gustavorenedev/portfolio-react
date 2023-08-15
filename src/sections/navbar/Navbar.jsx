@@ -1,4 +1,3 @@
-import Logo from '../../assets/logo.jpg'
 import data from './data'
 import {IoIosColorPalette} from 'react-icons/io'
 import './navbar.css'
