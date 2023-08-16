@@ -72,6 +72,10 @@ section > p {
 }
 
 /* GENERAL SECTION STYLES */
+p {
+    font-size: 1.1rem;
+}
+
 a {
     color: var(--color-white);
     transition: var(--transition);

@@ -1,6 +1,6 @@
 header {
     margin-top: 5rem;
-    height: calc(100vh -5rem);
+    height: calc(100vh - 5rem);
     display: grid;
     place-items: center;
     background: var(--color-white);
@@ -14,10 +14,6 @@ header {
     position: relative;
 }
 
-.header__profile img {
-    max-width: 100%;
-}
-
 .header__profile {
     width: 18rem;
     height: 22rem;
@@ -26,8 +22,12 @@ header {
     margin-bottom: 1.5rem;
 }
 
+.header__profile img{
+    max-width: 100%;
+}
+
 .header__container p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     width: 35rem;
     text-align: center;
     margin: 0.6rem 0 2rem;
@@ -64,6 +64,7 @@ header {
     color: var(--color-white);
     transform: translateX(-0.5rem);
 }
+
 
 /* MEDIA QUERIES (tablets) */
 @media screen and (max-width: 1024px) {
