@@ -1,0 +1,59 @@
+#skills{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skills__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 2rem;
+  }
+  
+  .card.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: var(--color-light);
+    border-radius: var(--border-radius-3);
+    transition: var(--transition);
+  }
+  
+  .card.skills:hover {
+    color: var(--color-white);
+  }
+  
+  .skills__icon {
+    background: var(--color-primary);
+    padding: 0.6rem;
+    border-radius: var(--border-radius-3);
+    font-size: 1.5rem;
+    color: var(--color-white);
+    transition: var(--transition);
+  }
+  
+  .skills h4 {
+    margin-bottom: 0.7rem;
+  }
+  
+  /* MEDIA QUERIES (tablets) */
+  @media screen and (max-width: 1024px) {
+    .skills__container {
+      gap: 1.5rem;
+    }
+  }
+  
+  /* MEDIA QUERIES (phones) */
+  @media screen and (max-width: 600px) {
+    .skills__container {
+      grid-template-columns: 1fr;
+      gap: 1.2rem;
+    }
+  
+    .card.skills {
+      gap: 1.2rem;
+    }
+  }
+  
