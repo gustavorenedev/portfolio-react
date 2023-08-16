@@ -1,5 +1,5 @@
 import CV from "../../assets/CV-GustavoRené.pdf";
-import AboutImage from '../../assets/teste.jpg'
+import AboutImage from '../../assets/fotopessoal.jpeg'
 import { AiOutlineDownload } from "react-icons/ai";
 import data from './data'
 import Card from '../../components/Card'
