@@ -3,7 +3,9 @@ import './footer.css'
 const Footer = () => {
   return (
     <footer>
-        <h2>Footer</h2>
+        <div className="footer__copyright">
+          <small>2023 Gustavo René &copy; All Rights Reserved</small>
+        </div>
     </footer>
   )
 }
