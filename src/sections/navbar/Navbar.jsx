@@ -1,5 +1,6 @@
 import data from './data'
 import {IoIosColorPalette} from 'react-icons/io'
+import {showModalContext} from '../../context/modal-context'
 import './navbar.css'
 
 const Navbar = () => {
