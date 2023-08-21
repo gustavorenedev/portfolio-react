@@ -1,96 +1,55 @@
-import Image1 from '../../assets/project1.jpg'
-import Image2 from '../../assets/project2.jpg'
-import Image3 from '../../assets/project3.jpg'
-import Image4 from '../../assets/project4.jpg'
-import Image5 from '../../assets/project5.jpg'
-import Image6 from '../../assets/project6.jpg'
-import Image7 from '../../assets/project7.jpg'
-import Image8 from '../../assets/project8.jpg'
-import Image9 from '../../assets/project9.jpg'
+import Image1 from '../../assets/projectBookClub.svg'
+import Image2 from '../../assets/projectSupermarketList.svg'
+import Image3 from '../../assets/projectWallet.svg'
+import Image4 from '../../assets/projectAgriculturalPlanting.jpg'
+import Image5 from '../../assets/projectDSList.jpg'
 
 const data = [
     {
         id: 1,
-        category: 'uiux',
+        category: 'backend',
         image: Image1,
-        title: "Project Title One (UIUX)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
+        title: "BookClub (Backend)",
+        desc: "API feita em Node.js com a função principal de uma biblioteca virtual. O usuário pode pesquisar livros e autores, obter suas informações e favoritar os livros.",
         demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        github: 'https://github.com/gustavorenedev/bookclub-api'
     },
     {
         id: 2,
-        category: 'frontend',
+        category: 'backend',
         image: Image2,
-        title: "Project Title Two (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
+        title: "Supermarket List (Backend)",
+        desc: "API em Node.js usando Express e Mongoose para conectar no MongoDB que visa organizar listas de compras de usuários do aplicativo, simplificando as compras no supermercado.",
         demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        github: 'https://github.com/gustavorenedev/supermarket-list-api'
     },
     {
         id: 3,
-        category: 'frontend',
+        category: 'backend',
         image: Image3,
-        title: "Project Title Three (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
+        title: "Wallet App (Backend)",
+        desc: "Esta é uma API criada usando Node.js, Express e PostgresSQL. O objetivo principal é criar um aplicativo que controle as finanças do usuário.",
         demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        github: 'https://github.com/gustavorenedev/Wallet-app-backend'
     },
     {
         id: 4,
-        category: 'uiux',
+        category: 'frontend',
         image: Image4,
-        title: "Project Title Four (UIUX)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
+        title: "Agriculture Planting (Frontend)",
+        desc: "Projeto utilizando HTML, CSS e JavaScript. A ferramenta oferece informações sobre cultivos populares em cada região, auxiliando decisões informadas para uma agricultura mais eficaz.",
         demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        github: 'https://github.com/gustavorenedev/GS-Code-Masters-Group'
     },
     {
         id: 5,
-        category: 'uiux',
-        image: Image5,
-        title: "Project Title Five (UIUX)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! ",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 6,
-        category: 'frontend',
-        image: Image6,
-        title: "Project Title Six (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 7,
-        category: 'frontend',
-        image: Image7,
-        title: "Project Title Seven (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 8,
         category: 'backend',
-        image: Image8,
-        title: "Project Title Eight (Backend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 9,
-        category: 'frontend',
-        image: Image9,
-        title: "Project Title Nine (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
+        image: Image5,
+        title: "DSList (Backend)",
+        desc: "Desenvolvida a aplicação utiliza Java com Spring Boot para gerenciar uma lista de jogos favoritos. A aplicação consome uma API para coletar os detalhes dos jogos e os armazena em um banco de dados.",
         demo: 'http://egatortutorials.com',
         github: 'https://github.com/egattor'
     }
 ]
-
 
 export default data
