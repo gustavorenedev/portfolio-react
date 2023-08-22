@@ -6,8 +6,13 @@ footer {
 }
 
 .footer__copyright {
+    font-size: 1rem;
     color: white;
     text-align: center;
     border-top: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1.5rem 0;
+}
+
+.footer__copyright a {
+    font-size: 0.8rem;
 }
