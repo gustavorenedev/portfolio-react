@@ -28,16 +28,17 @@ const About = () => {
               }
           </div>
           <p>
-            Tenho 19 anos, sou técnico em TI pelo SENAC, e no momento curso
-            Análise e Desenvolvimento de Sistemas na FIAP. Possuo
-            disponibilidade de horários, perfil persistente para aprender novos
-            conceitos em pouco tempo e comprometimento para novas oportunidades.
+          Com 19 anos, sou técnico em TI pelo SENAC e estudo Análise e Desenvolvimento de Sistemas na FIAP. 
+          Minha flexibilidade de horários me permite abraçar novas oportunidades de aprendizado. 
+          Tenho determinação para absorver conceitos rapidamente e encarar desafios com comprometimento.
           </p>
           <p>
-            Possuo conhecimentos na parte de Front-end: HTML, CSS, JavaScript,
-            Bootstrap e em Back-end: Java e MySQL. Atualmente sigo estudando as
-            tecnologias com foco em Back-end: React, JavaScript, NodeJS e
-            Python.
+          Em Front-end, domino HTML, CSS, JavaScript e Bootstrap, enquanto em Back-end, possuo experiência em NodeJS, Java, 
+          Python, JavaScript e banco de dados SQL e NoSQL para fortalecer meu repertório técnico.
+          </p>
+          <p>
+          Tenho muita facilidade no desenvolvimento web, especialmente no back-end, possuo habilidades nessa área e 
+          busco contribuir em projetos inovadores, criando soluções sólidas para as demandas do mercado.
           </p>
           <a href={CV} download className="btn primary">
             Download CV <AiOutlineDownload />
