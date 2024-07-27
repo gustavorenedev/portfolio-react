@@ -1,47 +1,54 @@
-import {AiFillHtml5} from 'react-icons/ai'
-import {FaCss3Alt} from 'react-icons/fa'
-import {RiJavascriptFill} from 'react-icons/ri'
-import {FaReact} from 'react-icons/fa'
-import {FaNodeJs} from 'react-icons/fa'
-import {FaPython} from 'react-icons/fa'
-import {BiLogoPostgresql} from 'react-icons/bi'
-import {BiLogoMongodb} from 'react-icons/bi'
-import {AiOutlineConsoleSql} from 'react-icons/ai'
-import {FaDocker} from 'react-icons/fa'
-
+import { DiHtml5, DiJqueryLogo } from "react-icons/di";
+import {
+  FaCloud,
+  FaDatabase,
+  FaDocker,
+  FaGit,
+  FaJava,
+  FaProjectDiagram,
+  FaReact,
+} from "react-icons/fa";
+import { RiJavascriptFill } from "react-icons/ri";
+import {
+  SiCsharp,
+  SiDotnet,
+  SiJunit5,
+  SiMicrosoftsqlserver,
+  SiMongodb,
+  SiMysql,
+  SiNextdotjs,
+  SiPostgresql,
+  SiRabbitmq,
+  SiSolid,
+  SiSpringboot,
+  SiTypescript,
+} from "react-icons/si";
 
 const data = [
-    {
-        id: 1, icon: <AiFillHtml5/>, title: 'HTML5'
-    },
-    {
-        id: 2, icon: <FaCss3Alt/>, title: 'CSS3'
-    },
-    {
-        id: 3, icon: <RiJavascriptFill/>, title: 'JavaScript'
-    },
-    {
-        id: 4, icon: <FaReact/>, title: 'React'
-    },
-    {
-        id: 5, icon: <FaNodeJs/>, title: 'NodeJS'
-    },
-    {
-        id: 6, icon: <FaPython/>, title: 'Python'
-    },
-    {
-        id: 7, icon: <BiLogoPostgresql/>, title: 'PostgreSQL'
-    },
-    {
-        id: 8, icon: <BiLogoMongodb/>, title: 'Mongodb'
-    },
-    {
-        id: 9, icon: <AiOutlineConsoleSql/>, title: 'SQL'
-    },
-    {
-        id: 10, icon: <FaDocker/>, title: 'Docker'
-    },
-]
+  { id: 1, icon: <SiCsharp />, title: "C#" },
+  { id: 2, icon: <SiDotnet />, title: ".NET Core" },
+  { id: 3, icon: <SiRabbitmq />, title: "RabbitMQ" },
+  { id: 4, icon: <FaJava />, title: "Java 17+" },
+  { id: 5, icon: <SiSpringboot />, title: "Spring Boot" },
+  { id: 6, icon: <SiJunit5 />, title: "JUnit5" },
+  { id: 7, icon: <FaReact />, title: "React" },
+  { id: 8, icon: <SiNextdotjs />, title: "Next.js" },
+  { id: 9, icon: <DiJqueryLogo />, title: "jQuery" },
+  { id: 10, icon: <RiJavascriptFill />, title: "JavaScript" },
+  { id: 11, icon: <SiTypescript />, title: "Typescript" },
+  { id: 12, icon: <DiHtml5 />, title: "HTML & CSS3" },
+  { id: 13, icon: <FaDatabase />, title: "SQL" },
+  { id: 14, icon: <FaDatabase />, title: "PL/SQL" },
+  { id: 15, icon: <SiMicrosoftsqlserver />, title: "SQL Server" },
+  { id: 16, icon: <SiMysql />, title: "MySQL" },
+  { id: 17, icon: <SiPostgresql />, title: "PostgreSQL" },
+  { id: 18, icon: <SiMongodb />, title: "MongoDB" },
+  { id: 19, icon: <FaGit />, title: "Git" },
+  { id: 20, icon: <FaGit />, title: "Github" },
+  { id: 21, icon: <FaCloud />, title: "Azure" },
+  { id: 22, icon: <FaDocker />, title: "Docker" },
+  { id: 23, icon: <SiSolid />, title: "SOLID" },
+  { id: 24, icon: <FaProjectDiagram />, title: "MVC" },
+];
 
-
-export default data
+export default data;
