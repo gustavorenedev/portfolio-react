@@ -26,23 +26,24 @@ const About = () => {
             ))}
           </div>
           <p>
-            Com 20 anos, sou técnico em TI pelo SENAC e estudo Análise e
-            Desenvolvimento de Sistemas na FIAP. Minha flexibilidade de horários
-            me permite abraçar novas oportunidades de aprendizado. Tenho
-            determinação para absorver conceitos rapidamente e encarar desafios
-            com comprometimento.
+            Olá, sou Gustavo! Atualmente, sou desenvolvedor .NET Júnior e
+            estudante de Análise e Desenvolvimento de Sistemas na FIAP. Moro em
+            São Paulo, capital, e estou à disposição para ajudar a transformar
+            suas ideias em soluções incríveis.
           </p>
           <p>
-            Em Front-end, domino HTML, CSS, JavaScript e Bootstrap, enquanto em
-            Back-end, possuo experiência em NodeJS, Java, Python, JavaScript e
-            banco de dados SQL e NoSQL para fortalecer meu repertório técnico.
+            Minhas habilidades abrangem diversas áreas: <br />
+            <strong>Front-end:</strong> React com JavaScript e TypeScript.{" "}
+            <br />
+            <strong>Back-end:</strong> C#, Java e frameworks como .NET Core e
+            Spring Boot. <br />
+            <strong>Banco de Dados:</strong> PL/SQL, SQL com SQL Server, MySQL e
+            Oracle SQL. <br />
+            <strong>Arquitetura de Projetos:</strong> API Rest, Microsserviços,
+            RabbitMQ, MVC, Repository. <br />
+            <strong>Controle de Versão:</strong> Git e GitHub e Azure DevOps.
           </p>
-          <p>
-            Tenho muita facilidade no desenvolvimento web, especialmente no
-            back-end, possuo habilidades nessa área e busco contribuir em
-            projetos inovadores, criando soluções sólidas para as demandas do
-            mercado.
-          </p>
+
           <a href={CV} download className="btn primary">
             Download CV <AiOutlineDownload />
           </a>
