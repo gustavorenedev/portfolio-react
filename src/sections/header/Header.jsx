@@ -18,8 +18,8 @@ const Header = () => {
           </div>
           <h3 data-aos="fade-up">Gustavo René</h3>
           <p data-aos="fade-up">
-          Olá! Sou Gustavo René, desenvolvedor Back-end com especialidade em JavaScript, NodeJS e SQL. 
-          Ajudo pequenos negócios e designers a colocarem em prática boas ideias. 
+          Olá! Sou Gustavo René, desenvolvedor .NET Júnior com especialidade em C#, JavaScript e SQL. 
+          Transformo ideias em soluções práticas para pequenos negócios e designers. 
           </p>
           <div className="header__cta" data-aos="fade-up">
             <a href="#contact" className='btn primary'>Vamos conversar ?</a>
