@@ -28,20 +28,24 @@ const About = () => {
           <p>
             Olá, sou Gustavo! Atualmente, sou desenvolvedor .NET Júnior na
             Redeservice e estudante de Análise e Desenvolvimento de Sistemas na
-            FIAP. Moro em São Paulo, capital, e estou à disposição para ajudar a
-            transformar suas ideias em soluções incríveis.
+            FIAP. Moro em São Paulo, capital, e estou sempre em busca de
+            aprender mais e criar novos projetos inovadores.
           </p>
+
           <p>
             Minhas habilidades abrangem diversas áreas: <br />
-            <strong>Front-end:</strong> React com JavaScript e TypeScript.
+            <strong>Front-end:</strong> React com JavaScript, TypeScript e
+            Tailwind CSS.
             <br />
             <strong>Back-end:</strong> C#, Java, e frameworks como .NET Core e
             Spring Boot. <br />
             <strong>Banco de Dados:</strong> PL/SQL, SQL (SQL Server, MySQL e
             Oracle SQL). <br />
             <strong>Arquitetura de Projetos:</strong> API Rest, Microsserviços,
-            RabbitMQ, MVC, e Repository. <br />
-            <strong>Controle de Versão:</strong> Git, GitHub e Azure DevOps.
+            Serviço de Mensageria, MVC e Repository. <br />
+            <strong>DevOps Tools:</strong> Azure, Docker e Serviços em Nuvem.
+            <br />
+            <strong>Controle de Versão:</strong> Git e GitHub.
           </p>
 
           <a href={CV} download className="btn primary">
