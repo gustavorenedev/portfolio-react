@@ -53,7 +53,7 @@ const data = [
     image: Image6,
     title: "Gerenciador de Usuário (Backend)",
     desc: "Uma API criada usando uma arquitetura de 3 camadas com C#, que permite aos usuários realizar várias operações, como registro, login, gerenciamento de usuários e redefinição de senha.",
-    github: "https://github.com/gustavorenedev/dslist",
+    github: "https://github.com/gustavorenedev/APIUser",
   },
   {
     id: 6,
