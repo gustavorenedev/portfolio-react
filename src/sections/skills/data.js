@@ -47,7 +47,7 @@ const data = [
   { id: 20, icon: <FaGit />, title: "Github" },
   { id: 21, icon: <FaCloud />, title: "Azure" },
   { id: 22, icon: <FaDocker />, title: "Docker" },
-  { id: 23, icon: <SiSolid />, title: "SOLID" },
+  { id: 23, icon: <FaProjectDiagram />, title: "Repository" },
   { id: 24, icon: <FaProjectDiagram />, title: "MVC" },
 ];
 
