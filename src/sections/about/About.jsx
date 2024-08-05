@@ -1,4 +1,4 @@
-import CV from "../../assets/CV-GustavoRene.pdf";
+import CV from "../../assets/CV-GustavoReneDias.pdf";
 import AboutImage from "../../assets/fotopessoal.jpeg";
 import { AiOutlineDownload } from "react-icons/ai";
 import data from "./data";
