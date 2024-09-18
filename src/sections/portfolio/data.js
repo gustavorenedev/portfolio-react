@@ -1,20 +1,13 @@
-// import Image1 from '../../assets/projectBookClub.svg'
 import Image2 from "../../assets/projectSupermarketList.svg";
 import Image3 from "../../assets/projectWallet.svg";
 import Image4 from "../../assets/projectAgriculturalPlanting.jpg";
 import Image5 from "../../assets/projectDSList.jpg";
 import Image6 from "../../assets/projectAPIUser.png";
 import Image7 from "../../assets/projectSeaCare.png";
+import Image8 from "../../assets/projetoMinimalAPI.png";
+import Image9 from "../../assets/ProjectPersonalBuy.png";
 
 const data = [
-  // {
-  //     id: 1,
-  //     category: 'backend',
-  //     image: Image1,
-  //     title: "BookClub (Backend)",
-  //     desc: "API feita em Node.js com a função principal de uma biblioteca virtual. O usuário pode pesquisar livros e autores, obter suas informações e favoritar os livros.",
-  //     github: 'https://github.com/gustavorenedev/bookclub-api'
-  // },
   {
     id: 1,
     category: "backend",
@@ -62,6 +55,22 @@ const data = [
     title: "SeaCare (Backend e Frontend)",
     desc: "Desenvolvida a aplicação SeaCare utilizando toda a arquitetura ASP.NET Core em MVC para denúncia de artefatos em praias, permite reportar localização exata de plásticos, detritos e objetos inusitados, com informações adicionais e painel de administração.",
     github: "https://github.com/gustavorenedev/SeaCareGS",
+  },
+  {
+    id: 7,
+    category: "backend",
+    image: Image8,
+    title: "Minimal API com JWT (Backend)",
+    desc: "Está API minimalista, desenvolvida em .NET Core e C#, permite o cadastro e login de Administradores e Editores com autenticação JWT, garantindo permissões diferenciadas.",
+    github: "https://github.com/gustavorenedev/minimal-API",
+  },
+  {
+    id: 8,
+    category: "backend",
+    image: Image9,
+    title: "PersonalBuyAPI (Backend)",
+    desc: "Desenvolvida a aplicação PersonalBuy com arquitetura em 3 camadas para e-commerce, gerenciando clientes, produtos e carrinhos. A próxima etapa é integrar Machine Learning para sugestões de compras por e-mail.",
+    github: "https://github.com/gustavorenedev/PersonalBuyAPI",
   },
 ];
 

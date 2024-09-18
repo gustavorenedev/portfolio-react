@@ -26,26 +26,32 @@ const About = () => {
             ))}
           </div>
           <p>
-            Olá, sou Gustavo! Atualmente, sou desenvolvedor .NET Júnior na
-            Redeservice e estudante de Análise e Desenvolvimento de Sistemas na
-            FIAP. Moro em São Paulo, capital, e estou sempre em busca de
-            aprender mais e criar novos projetos inovadores.
+            Olá, sou Gustavo! Atualmente, sou desenvolvedor .NET Júnior e
+            estudante de Análise e Desenvolvimento de Sistemas na FIAP. Moro em
+            São Paulo, capital, e estou sempre em busca de aprender mais e criar
+            novos projetos inovadores.
           </p>
 
           <p>
             Minhas habilidades abrangem diversas áreas: <br />
-            <strong>Front-end:</strong> React com JavaScript, TypeScript e
-            Tailwind CSS.
+            <strong>Front-end:</strong> React, JavaScript, TypeScript e Tailwind
+            CSS. <br />
+            <strong>Back-end:</strong> C#, .NET Core, APIs RESTful,
+            microsserviços, Clean Code. <br />
+            <strong>Banco de Dados:</strong> PL/SQL, SQL (SQL Server, MySQL,
+            Oracle SQL), e DbBeaver. <br />
+            <strong>ORM e Consultas:</strong> Entity Framework, LINQ e Dapper.
             <br />
-            <strong>Back-end:</strong> C#, Java, e frameworks como .NET Core e
-            Spring Boot. <br />
-            <strong>Banco de Dados:</strong> PL/SQL, SQL (SQL Server, MySQL e
-            Oracle SQL). <br />
-            <strong>Arquitetura de Projetos:</strong> API Rest, Microsserviços,
-            Serviço de Mensageria, MVC e Repository. <br />
-            <strong>DevOps Tools:</strong> Azure, Docker e Serviços em Nuvem.
+            <strong>Arquitetura e Padrões:</strong> Clean Architecture, Onion,
+            MVC, 3 camadas, Swagger, Repository.
             <br />
-            <strong>Controle de Versão:</strong> Git e GitHub.
+            <strong>Testes Unitários:</strong> xUnit com AutoBogus e Microsoft
+            Test Framework.
+            <br />
+            <strong>DevOps Tools:</strong> Azure DevOps, Docker e serviços em
+            nuvem.
+            <br />
+            <strong>Controle de Versão:</strong> Git e GitHub. <br />
           </p>
 
           <a href={CV} download className="btn primary">
