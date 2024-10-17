@@ -6,6 +6,7 @@ import Image6 from "../../assets/projectAPIUser.png";
 import Image7 from "../../assets/projectSeaCare.png";
 import Image8 from "../../assets/projetoMinimalAPI.png";
 import Image9 from "../../assets/ProjectPersonalBuy.png";
+import Image10 from "../../assets/projectCleanArch.png";
 
 const data = [
   {
@@ -59,17 +60,25 @@ const data = [
   {
     id: 7,
     category: "backend",
+    image: Image10,
+    title: "Clean Archtecture MVC (Backend e Frontend)",
+    desc: "Projeto ASP.NET Core MVC com Clean Architecture, usando .NET 8, CQRS, MediatR, DDD, e Repository Pattern. API RESTful com Swagger, JWT, Identity e EF Core com SQL Server.",
+    github: "https://github.com/gustavorenedev/CleanArchMvc",
+  },
+  {
+    id: 8,
+    category: "backend",
     image: Image8,
     title: "Minimal API com JWT (Backend)",
     desc: "Está API minimalista, desenvolvida em .NET Core e C#, permite o cadastro e login de Administradores e Editores com autenticação JWT, garantindo permissões diferenciadas.",
     github: "https://github.com/gustavorenedev/minimal-API",
   },
   {
-    id: 8,
+    id: 9,
     category: "backend",
     image: Image9,
     title: "PersonalBuyAPI (Backend)",
-    desc: "Desenvolvida a aplicação PersonalBuy com arquitetura em 3 camadas para e-commerce, gerenciando clientes, produtos e carrinhos. A próxima etapa é integrar Machine Learning para sugestões de compras por e-mail.",
+    desc: "Desenvolvida a aplicação PersonalBuy em 3 camadas em .NET Core para e-commerce, gerenciando clientes, produtos e carrinhos. Próxima etapa: integrar Machine Learning para sugestões de compra por e-mail.",
     github: "https://github.com/gustavorenedev/PersonalBuyAPI",
   },
 ];

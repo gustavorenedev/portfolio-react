@@ -1,5 +1,5 @@
 import { FaAward } from "react-icons/fa";
-import { TbBooks } from "react-icons/tb";
+import { TbBooks, TbCertificate } from "react-icons/tb";
 
 const data = [
   {
@@ -13,6 +13,12 @@ const data = [
     icon: <TbBooks />,
     title: "Projetos",
     desc: "Desenvolvendo soluções impactantes",
+  },
+  {
+    id: 3,
+    icon: <TbCertificate />,
+    title: "Certificados",
+    desc: "+6 Certificados em cursos online da FIAP, DIO, Udemy...",
   },
 ];
 

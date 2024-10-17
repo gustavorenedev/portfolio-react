@@ -26,16 +26,15 @@ const About = () => {
             ))}
           </div>
           <p>
-            Olá, sou Gustavo! Atualmente, sou desenvolvedor .NET Júnior e
-            estudante de Análise e Desenvolvimento de Sistemas na FIAP. Moro em
-            São Paulo, capital, e estou sempre em busca de aprender mais e criar
-            novos projetos inovadores.
+            Olá, sou Gustavo! Atualmente, sou desenvolvedor .NET Core alocado a
+            uma operadora de saúde e estudante de Análise e Desenvolvimento de
+            Sistemas na FIAP. Moro em São Paulo, capital, e estou sempre em
+            busca de aprender mais e criar novos projetos inovadores.
           </p>
 
           <p>
             Minhas habilidades abrangem diversas áreas: <br />
-            <strong>Front-end:</strong> React, JavaScript, TypeScript e Tailwind
-            CSS. <br />
+            <strong>Front-end:</strong> React, JavaScript e Tailwind CSS. <br />
             <strong>Back-end:</strong> C#, .NET Core, APIs RESTful,
             microsserviços, Clean Code. <br />
             <strong>Banco de Dados:</strong> PL/SQL, SQL (SQL Server, MySQL,
