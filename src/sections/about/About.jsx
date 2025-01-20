@@ -1,4 +1,4 @@
-import CV from "../../assets/CV-GustavoReneDias.pdf";
+import CV from "../../assets/CV-GustavoRene.pdf";
 import AboutImage from "../../assets/fotopessoal.jpeg";
 import { AiOutlineDownload } from "react-icons/ai";
 import data from "./data";
@@ -27,8 +27,8 @@ const About = () => {
           </div>
           <p>
             Olá, sou Gustavo! Atualmente, sou desenvolvedor .NET Core alocado a
-            uma operadora de saúde e estudante de Análise e Desenvolvimento de
-            Sistemas na FIAP. Moro em São Paulo, capital, e estou sempre em
+            uma operadora de saúde e formado no curso de Análise e Desenvolvimento de
+            Sistemas pela FIAP. Moro em São Paulo, capital, e estou sempre em
             busca de aprender mais e criar novos projetos inovadores.
           </p>
 
