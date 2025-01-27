@@ -7,6 +7,8 @@ import Image7 from "../../assets/projectSeaCare.png";
 import Image8 from "../../assets/projetoMinimalAPI.png";
 import Image9 from "../../assets/ProjectPersonalBuy.png";
 import Image10 from "../../assets/projectCleanArch.png";
+import Image11 from "../../assets/projectMicrosserviceCatalog.png";
+import Image12 from "../../assets/ProjectCartaoSeguro.png";
 
 const data = [
   {
@@ -80,6 +82,22 @@ const data = [
     title: "PersonalBuyAPI (Backend)",
     desc: "Desenvolvida a aplicação PersonalBuy em 3 camadas em .NET Core para e-commerce, gerenciando clientes, produtos e carrinhos. Próxima etapa: integrar Machine Learning para sugestões de compra por e-mail.",
     github: "https://github.com/gustavorenedev/PersonalBuyAPI",
+  },
+  {
+    id: 10,
+    category: "backend",
+    image: Image11,
+    title: "MicrosservicesCatalogAPI (Backend)",
+    desc: " aplicação de catálogo usa Docker, Redis, MongoDB, PostgreSQL e gRPC, garantindo eficiência, alta performance e flexibilidade no gerenciamento de dados e serviços.",
+    github: "https://github.com/gustavorenedev/MicrosservicesCatalogAPI",
+  },
+  {
+    id: 11,
+    category: "backend",
+    image: Image12,
+    title: "CartaoSeguro (Backend)",
+    desc: "Um sistema para gerenciamento de cartões, utiliza tecnologias modernas como Docker, Kafka, MongoDB, JWT. Contendo uma validação via token e garantindo um fluxo otimizado de bloqueio/desbloqueio de cartões",
+    github: "https://github.com/gustavorenedev/CartaoSeguro",
   },
 ];
 
